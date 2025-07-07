@@ -1,4 +1,4 @@
-use twilight_llama::model::{
+use inference::{
     gen_config_builder::LunnamaGenConfigBuilder, model_builder::LunnamaModel,
     prompt_builder::LunnamaPromptBuilder,
 };

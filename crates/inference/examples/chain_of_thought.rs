@@ -1,6 +1,6 @@
 use llama_cpp_2::{send_logs_to_tracing, LogOptions};
 use tracing::info;
-use twilight_llama::model::{
+use inference::{
     gen_config_builder::LunnamaGenConfigBuilder, model_builder::LunnamaModel,
 };
 fn main() -> anyhow::Result<()> {
